@@ -39,16 +39,10 @@ img {
     color: white;
 }
 
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: white;
+.social {
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
-  }
+}
 
   .button {
     background-color: gold;
@@ -93,7 +87,7 @@ img {
   }
 
   @media only screen and (min-width: 600px) {
-    .footer {
+    body {
         max-width: 100% !important;
         overflow-x: hidden !important;
     }
