@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The FERDAcast</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <img src="ferdalogo.jpg" class="logo">
+        <div class="container">
+            <div class="center">
+                <button class="button guest" onclick="document.location='https://docs.google.com/forms/d/e/1FAIpQLSeNL2ERltOsGAd8MSDVAIXynjvBcdAxSsaXR1pTyKjfeCv9XA/viewform'">Be a Guest!</button>
+                <button class="button question" onclick="document.location='https://tellonym.me/TheFERDAcastSQs'">Swizzy's Questions</button>
+                <button class="button playlist" onclick="document.location='https://open.spotify.com/playlist/5CAPgv8NO6RrkiLUsSEehf?si=ESwUMUCjS7uaqpfC1i2BzA'">WickyWick's Music Reccys</button>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Follow us on</p>
+            <a href="https://www.instagram.com/theferdacast/" class="fa fa-instagram"></a>
+            <a href="https://open.spotify.com/show/7nEZSQBwhcl2sm5L1Sx3rD?si=4CyvLFOTS1WcO595fG8N3A" class="fa fa-spotify"></a>
+            <a href="https://podcasts.apple.com/us/podcast/the-ferdacast/id1549503687" class="fa fa-podcast"></a>
+          </div>
+    </body>
+</html>
