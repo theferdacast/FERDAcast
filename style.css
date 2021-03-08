@@ -86,9 +86,9 @@ img {
     transform: translate(-50%, -50%);
   }
 
-  @media only screen and (min-width: 600px) {
-    body {
-        max-width: 100% !important;
+  @media only screen and (max-width: 600px) {
+    .social {
+        width: 100% !important;
         overflow-x: hidden !important;
     }
 }
